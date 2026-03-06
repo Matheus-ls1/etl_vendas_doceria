@@ -15,13 +15,13 @@ Este tipo de automação substitui horas de trabalho manual em planilhas, entreg
 
 O projeto foi estruturado em quatro fases principais:
 
-1. **Extração (Extract):** Criação de um script (`gerador_dados.py`) que simula a exportação de um banco de dados de um ano inteiro de vendas de uma doceria (com produtos como Banoffee, Churros e Brigadeiros), gerando um arquivo CSV com milhares de registros.
+1. **Extração (Extract):** Criação de um script (`gerador_de_vendas.py`) que simula a exportação de um banco de dados de um ano inteiro de vendas de uma doceria (com produtos como Banoffee, Morangoffee, Pudim Churros e Bolo), gerando um arquivo CSV com milhares de registros.
 2. **Transformação (Transform):** Leitura do CSV bruto, filtragem de pedidos cancelados (limpeza de dados inconsistentes) e criação de novas métricas, como o cálculo do faturamento total por pedido e extração de dias da semana para análise de sazonalidade.
 3. **Análise (Business Logic):** Agrupamento de dados para responder a perguntas de negócio:
    * Faturamento total mensal.
    * Ranking de produtos que geraram mais receita.
    * Volume de vendas por dia da semana.
-4. **Carregamento (Load):** Exportação dos DataFrames analisados diretamente para um arquivo Excel (`Relatorio_Gerencial_Doceria.xlsx`). O script cria múltiplas abas, ajusta a largura das colunas e aplica formatação monetária (R$) automaticamente.
+4. **Carregamento (Load):** Exportação dos DataFrames analisados diretamente para um arquivo Excel (`Relatorio_Doceria_2025.xlsx`). O script cria múltiplas abas, ajusta a largura das colunas e aplica formatação monetária (R$) automaticamente.
 
 ## 🚀 Como Executar o Projeto
 
