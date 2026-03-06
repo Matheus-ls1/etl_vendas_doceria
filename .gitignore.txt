@@ -1,0 +1,8 @@
+# Ignorar arquivos de dados gerados
+vendas_doceria_2025.csv
+Relatorio_Doceria_2025.xlsx
+
+# Ignorar pastas de ambiente virtual e cache do Python
+__pycache__/
+.venv/
+venv/
